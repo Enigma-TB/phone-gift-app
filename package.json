@@ -1,13 +1,15 @@
 {
   "name": "phone-gift-app",
-  "version": "1.0.0",
-  "description": "A mobile app for sending GIFs with a greeting message and auto-shutdown feature",
+  "version": "2.0.0",
+  "description": "A mobile app for sending GIFs with a greeting message and full device control (shutdown, restart, lock)",
   "main": "index.js",
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest"
+    "test": "jest",
+    "link": "react-native link",
+    "build-android": "cd android && ./gradlew assembleRelease && cd .."
   },
   "dependencies": {
     "react": "^18.2.0",
