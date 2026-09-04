@@ -1,7 +1,7 @@
 {
   "name": "phone-gift-app",
   "version": "2.0.0",
-  "description": "A mobile app for sending GIFs with a greeting message and full device control (shutdown, restart, lock)",
+  "description": "A mobile app for sending GIFs - screen turns OFF when link is clicked, no permanent shutdown",
   "main": "index.js",
   "scripts": {
     "start": "react-native start",
